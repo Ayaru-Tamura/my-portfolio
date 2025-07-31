@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Custom Global Styles === */
+html, body {
+  background-color: #330033;
+  color: #ffffff;
+  font-family: 'Shippori Mincho', 'Times New Roman', serif;
+}

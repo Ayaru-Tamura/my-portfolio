@@ -1,0 +1,31 @@
+[33mcommit 6612053b83a814e75637bb8eb04cf9efcadb7c5f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author:     Igeta <195562517+IGETA69@users.noreply.github.com>
+AuthorDate: Thu Jul 31 13:30:36 2025 +0900
+Commit:     Igeta <195562517+IGETA69@users.noreply.github.com>
+CommitDate: Thu Jul 31 13:30:36 2025 +0900
+
+    ヘッダーとフッターの追加などデザイン調整
+
+[33mcommit 44684d93bf1a5f79fb5d9b707cc7bcb0e470cc58[m
+Author:     Igeta <195562517+IGETA69@users.noreply.github.com>
+AuthorDate: Wed Jul 30 22:41:28 2025 +0900
+Commit:     Igeta <195562517+IGETA69@users.noreply.github.com>
+CommitDate: Wed Jul 30 22:41:28 2025 +0900
+
+    Fix: Tailwindのcontent指定を追加してCSS反映
+
+[33mcommit a62eb5a60c517da9d76dfd2e777d195a75bdd8e2[m
+Author:     Igeta <195562517+IGETA69@users.noreply.github.com>
+AuthorDate: Wed Jul 30 21:53:23 2025 +0900
+Commit:     Igeta <195562517+IGETA69@users.noreply.github.com>
+CommitDate: Wed Jul 30 21:53:23 2025 +0900
+
+    initial commit
+
+[33mcommit fe99e20f74638cbd0e3835a881092cebc07bd0a9[m
+Author:     houston[bot] <astrobot-houston@users.noreply.github.com>
+AuthorDate: Wed Jul 30 20:58:38 2025 +0900
+Commit:     Igeta <195562517+IGETA69@users.noreply.github.com>
+CommitDate: Wed Jul 30 20:58:38 2025 +0900
+
+    Initial commit from Astro
