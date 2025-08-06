@@ -1,0 +1,44 @@
+---
+// Layout.astro
+import "../styles/global.css";
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body class="text-white">
+    <header class="bg-black text-white py-4 px-8 sticky top-0 z-50">
+      <nav class="max-w-4xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 animate-gradient-move">
+          Ayaru
+        </h1>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="/about" class="hover:underline">About</a></li>
+          <li><a href="#skills" class="hover:underline">Skills</a></li>
+          <li><a href="#works" class="hover:underline">Works</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-8">
+      <slot /> 
+    </main>
+
+    <footer class="bg-black text-white text-center py-6 mt-16">
+      <p>© 2025 Ayaru Tamura</p>
+      <p>
+        <a href="https://github.com/Ayaru-Tamura" class="hover:underline mx-2" target="_blank" rel="noopener noreferrer">GitHub</a>
+        |
+        <a href="https://x.com/runur_69" class="hover:underline mx-2" target="_blank" rel="noopener noreferrer">X</a>
+        |
+        <a href="mailto:ayaru.t.970724@gmail.com" class="hover:underline mx-2">Email</a>
+      </p>
+    </footer>
+  </body>
+</html>
