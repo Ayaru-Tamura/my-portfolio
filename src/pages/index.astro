@@ -1,27 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const name = "Ayaru";
-const message = "未来に向けて、今を作る。";
+const name = "Tamura Ayaru";
 ---
 
 <Layout>
-    <h1 class="text-5xl font-semibold mb-6 text-white">Tamura Ayaru</h1>
-    <p class="text-lg mb-8 leading-loose text-white">
+  <div class="mb-12">
+    <h1 class="text-5xl font-semibold mb-8 text-white">{name}</h1>
+
+    <p class="text-base leading-loose text-white max-w-2xl">
       人を責めずに、仕組みを変える。<br />
-      人に依存した運用や非効率な業務フローに課題を感じ、改善の必要性を意識するようになりました。<br />
-      音響・照明の現場経験とITサポート・検証業務の経験も活かし、<br />
-      今後はそれらの課題をシステムとして解決できるエンジニアを目指しています。
+      現場理解とITの視点を活かし、
+      業務改善につながる仕組みづくりを目指しています。
     </p>
+  </div>
 
-    <p class="text-base mb-8 text-gray-300">
-      高知を拠点に、楽器教室で受付事務と音響・照明オペレーションに携わっています。<br />
-      現場理解とITの視点を活かし、業務改善につながる仕組みづくりを目指しています。
-    </p>
-
-    <div class="flex flex-wrap justify-center gap-4 mt-8">
-      <a href="/about" class="px-4 py-2 bg-[#333333] rounded text-white">About</a>
-      <a href="/skills" class="px-4 py-2 bg-[#333333] rounded text-white">Skills</a>
-      <a href="/works" class="px-4 py-2 bg-[#333333] rounded text-white">Works</a>
-      <a href="/contact" class="px-4 py-2 bg-[#333333] rounded text-white">Contact</a>
-    </div>
+  <div class="flex flex-wrap gap-4">
+    <a href="/about" class="px-4 py-2 bg-[#333333] rounded text-white">About</a>
+    <a href="/skills" class="px-4 py-2 bg-[#333333] rounded text-white">Skills</a>
+    <a href="/works" class="px-4 py-2 bg-[#333333] rounded text-white">Works</a>
+    <a href="/contact" class="px-4 py-2 bg-[#333333] rounded text-white">Contact</a>
+  </div>
 </Layout>
