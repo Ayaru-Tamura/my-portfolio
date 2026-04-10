@@ -7,4 +7,27 @@ html, body {
   background-color: #111111;
   color: #ffffff;
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  .page-title {
+  @apply text-5xl font-semibold mb-8 text-white;
+}
+
+.section-title {
+  @apply text-xl font-semibold mb-3 text-white;
+}
+
+.body-text {
+  @apply text-base leading-loose text-white max-w-2xl;
+}
+
+.body-list {
+  @apply text-base leading-loose text-white max-w-2xl list-disc pl-5;
+}
+
+.section-block {
+  @apply mb-10;
+}
+
+.link-text {
+  @apply text-white underline underline-offset-4;
+}
 }

@@ -3,11 +3,22 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <h1 class="text-5xl font-semibold mb-6 text-white">Contact</h1>
-  <p class="text-base mb-8 leading-loose text-white">
-    これは私のポートフォリオのContactページです。
-  </p>
+  <h1 class="page-title">Contact</h1>
 
-  <!--フォームを作る。私のayaru.t.970724の方にメールが届くようにする -->
-
+  <div class="section-block">
+    <p class="body-text mb-4">
+      お問い合わせはメール、またはGitHubからお願いいたします。
+    </p>
+    <div class="flex gap-4">
+      <a href="mailto:ayaru.t.970724@gmail.com" class="link-text">Email</a>
+      <a
+        href="https://github.com/Ayaru-Tamura"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-text"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
 </Layout>
