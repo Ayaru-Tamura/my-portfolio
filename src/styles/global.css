@@ -2,32 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-/* === Custom Global Styles === */
-html, body {
-  background-color: #111111;
-  color: #ffffff;
+body {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
-  .page-title {
-  @apply text-5xl font-semibold mb-8 text-white;
+}
+
+.page-title {
+  @apply text-3xl md:text-4xl font-semibold mb-6 md:mb-8 text-white;
 }
 
 .section-title {
-  @apply text-xl font-semibold mb-3 text-white;
+  @apply text-lg md:text-xl font-semibold mb-3 text-white;
 }
 
 .body-text {
-  @apply text-base leading-loose text-white max-w-2xl;
+  @apply text-sm md:text-base leading-loose text-white max-w-2xl;
 }
 
 .body-list {
-  @apply text-base leading-loose text-white max-w-2xl list-disc pl-5;
+  @apply text-sm md:text-base leading-loose text-white max-w-2xl list-disc pl-5;
 }
 
 .section-block {
-  @apply mb-10;
+  @apply mb-8 md:mb-10;
 }
 
 .link-text {
   @apply text-white underline underline-offset-4;
-}
 }
