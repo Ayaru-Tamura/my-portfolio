@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import namecard from '../assets/namecard01.jpg';
 ---
 
 <Layout>
@@ -35,10 +37,16 @@ import Layout from '../layouts/Layout.astro';
   </div>
 
   <div class="section-block">
-    <h2 class="section-title">名刺デザイン（農園）</h2>
+    <h2 class="section-title">名刺デザイン（木下農園様）</h2>
+    <Image
+      src={namecard}
+      alt="名刺デザイン"
+      class="mb-4 rounded shadow-md max-w-md"
+    />
     <p class="body-text mb-3">
-      農園の名刺デザインを制作しました。
-      親しみやすさと視認性を意識し、情報の整理と余白を重視して設計しています。
+      梨・レモン・スイカなどを作っている農園様の名刺デザインを制作しました。</br>
+      家族経営の農園様なので、ご依頼者様の娘様の描いたフルーツのイラストを使用。</br>
+      温かみとモダンさの両立、視認性を意識し、情報の整理と余白を重視して設計しています。
     </p>
     <p class="text-sm text-gray-400 mb-3">
       使用ツール：Illustrator / Photoshop
