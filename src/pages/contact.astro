@@ -5,20 +5,46 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
   <h1 class="page-title">Contact</h1>
 
-  <div class="section-block">
-    <p class="body-text mb-4">
-      お問い合わせはメール、またはGitHubからお願いいたします。
-    </p>
-    <div class="flex gap-4">
-      <a href="mailto:ayaru.t.970724@gmail.com" class="link-text">Email</a>
-      <a
-        href="https://github.com/Ayaru-Tamura"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="link-text"
-      >
-        GitHub
-      </a>
+  <form
+    action="https://formspree.io/f/xnjlnpnj"
+    method="POST"
+    class="section-block max-w-xl"
+  >
+    <div class="mb-4">
+      <label class="block mb-2 text-gray-300">お名前</label>
+      <input
+        type="text"
+        name="name"
+        required
+        class="w-full p-2 rounded bg-zinc-800 text-white placeholder-gray-400 focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-gray-500"
+      />
     </div>
-  </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-gray-300">メールアドレス</label>
+      <input
+        type="email"
+        name="email"
+        required
+        class="w-full p-2 rounded bg-zinc-800 text-white placeholder-gray-400 focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-gray-500"
+      />
+    </div>
+
+    <div class="mb-4">
+      <label class="block mb-2 text-gray-300">お問い合わせ内容</label>
+      <textarea
+        name="message"
+        rows="5"
+        required
+        class="w-full p-2 rounded bg-zinc-800 text-white placeholder-gray-400 focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-gray-500"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      class="px-4 py-2 bg-[#333333] rounded text-white"
+    >
+      送信
+    </button>
+  </form>
 </Layout>
