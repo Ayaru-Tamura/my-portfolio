@@ -1,13 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
-import namecard from '../assets/namecard01.jpg';
+import namecard01 from '../assets/namecard01.jpg';
+import namecard02 from '../assets/namecard02.jpg';
 import logo from '../assets/logo02.jpg';
 ---
 
 <Layout>
   <h1 class="page-title">Works</h1>
 
+  <!-- 作品一覧を作る -->
   <div class="section-block">
     <h2 class="section-title">ポートフォリオサイト</h2>
     <p class="body-text mb-3">
@@ -40,11 +42,11 @@ import logo from '../assets/logo02.jpg';
   <div class="section-block">
     <h2 class="section-title">名刺デザイン（木下農園様）</h2>
     <img
-    src={namecard.src}
-    width={namecard.width}
-    height={namecard.height}
-    alt="名刺デザイン（農園）"
-    class="mb-4 rounded shadow-md w-full max-w-md h-auto"
+      src={namecard01.src}
+      width={namecard01.width}
+      height={namecard01.height}
+      alt="名刺デザイン（農園）"
+      class="mb-4 rounded shadow-md w-full max-w-md h-auto"
     />
     <p class="body-text mb-3">
       梨・レモン・スイカなどを生産している農園様の名刺デザインを制作しました。</br>
@@ -57,9 +59,16 @@ import logo from '../assets/logo02.jpg';
   </div>
 
   <div class="section-block">
-    <h2 class="section-title">名刺デザイン（同人誌作者様）</h2>
+    <h2 class="section-title">名刺デザイン（海田様）</h2>
+    <img
+      src={namecard02.src}
+      width={namecard02.width}
+      height={namecard02.height}
+      alt="名刺デザイン（農園）"
+      class="mb-4 rounded shadow-md w-full max-w-md h-auto"
+    />
     <p class="body-text mb-3">
-      同人誌活動を行っている方の名刺デザインを制作しました。
+      同人活動を行っている方の名刺デザインを制作しました。
       個性や世界観を表現しつつ、情報が伝わりやすい構成を意識しています。
     </p>
     <p class="text-sm text-gray-400 mb-3">
@@ -70,18 +79,18 @@ import logo from '../assets/logo02.jpg';
   <div class="section-block">
     <h2 class="section-title">バンドロゴデザイン</h2>
     <img
-    src={logo.src}
-    width={logo.width}
-    height={logo.height}
-    alt="ロゴデザイン"
-    class="mb-4 rounded shadow-md w-full max-w-md h-auto"
+      src={logo.src}
+      width={logo.width}
+      height={logo.height}
+      alt="ロゴデザイン"
+      class="mb-4 rounded shadow-md w-full max-w-md h-auto"
     />
     <p class="body-text mb-3">
-    東京・仙台で活動中のバンド「逆張り」様のロゴを制作しました。</br>
-    激しい曲調と文学的で繊細な歌詞、
-    その両面を押し出すエネルギーの強さを表現しています。</br>
-    文字をあえて反転させることで、
-    印象に残るビジュアルになるよう設計しました。
+      東京・仙台で活動中のバンド「逆張り」様のロゴを制作しました。</br>
+      激しい曲調と文学的で繊細な歌詞、
+      その両面を押し出すエネルギーの強さを表現しています。</br>
+      文字をあえて反転させることで、
+      印象に残るビジュアルになるよう設計しました。
     </p>
     <p class="text-sm text-gray-400 mb-3">
       使用ツール：Illustrator / Photoshop
